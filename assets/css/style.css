@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/*---------------General-------*/
+body {
+    font-family: "Itim", sans-serif;
+}
+
+
+
+/*---------------Navigation Bar-------*/
+nav {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    
+}
+.navbar-toggler {
+    margin-bottom: 15px;
+    background-color: #343a40;
+    border: 2px solid #343a40;
+    border-radius: 5px;
+}
+
+.navbar-toggler:hover {
+    background-color: #343a40;
+}
