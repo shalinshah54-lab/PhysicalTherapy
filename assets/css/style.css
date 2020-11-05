@@ -2,6 +2,8 @@
 /*---------------General-------*/
 body {
     font-family: "Itim", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -10,7 +12,8 @@ body {
 nav {
     margin: 0;
     padding: 0;
-    line-height: 30px;
+    line-height: 25px;
+    width: 100%;
     
 }
 .navbar-toggler {
@@ -22,4 +25,24 @@ nav {
 
 .navbar-toggler:hover {
     background-color: #343a40;
+}
+
+/*---------------logo-------*/
+.logo {
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/*---------------collapse navbar-------*/
+
+.nav-bar-item a {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/*---------------hero image-------*/
+
+.hero-image {
+    background: url("images/physicaltherapy.jpg") no-repeat center center;
 }
