@@ -43,5 +43,10 @@ nav {
 }
 /*---------------hero image-------*/
 .hero-image {
-    background: url("../images/physicaltherapy.jpg")
+    background: url("../images/physicaltherapy.jpg") no-repeat center center;
+    min-height: 400px;
+}
+
+.therapy {
+    float: right;
 }
