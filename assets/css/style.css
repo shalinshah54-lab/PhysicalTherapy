@@ -42,3 +42,6 @@ nav {
     text-transform: uppercase;
 }
 /*---------------hero image-------*/
+.hero-image {
+    background: url("../images/physicaltherapy.jpg")
+}
