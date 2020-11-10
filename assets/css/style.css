@@ -72,14 +72,15 @@ nav {
          transform: scale(1.1);
      }
 }
+/*----------Credit to CodeInstitute for teaching animations----*/
 
 .image-therapy {
-    background: url("../images/close-up-equipment.jpg") no-repeat center content-box;
+    background: url("../images/therapy.jpg") no-repeat center content-box;
     width: 100%;
     height: 500px;
     
 }
-/*----------Credit to CodeInstitute for teaching animations----*/
+/*----------Credit to Dioni De Guzman,PT and Hipwallpaper.com----*/
 
 
 .therapy {
