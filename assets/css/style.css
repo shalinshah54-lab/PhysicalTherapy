@@ -82,6 +82,12 @@ nav {
 }
 /*----------Credit to Dioni De Guzman,PT and Hipwallpaper.com----*/
 
+.relaxation {
+    background: url("../images/relaxation.jpg") no-repeat left center;
+    width: 100%;
+    height: 500px;
+}
+
 
 .therapy {
     float: center;
