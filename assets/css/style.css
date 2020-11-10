@@ -85,16 +85,15 @@ nav {
 .relaxation {
     background: url("../images/relaxation.jpg") no-repeat left center;
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
-
+/*-----------Credit to Ryan, Cunningham and Hipwallpaper.com--------*/
 
 .therapy {
     float: center;
-    background-color: #5fb2ff36;
-    border-radius: 5px;
-    padding-top: 75px;
-    padding-right: 50px;
+    background-color: #2476c2bb;
+    padding-top: 0px;
+    padding-right: 0px;
 }
 
 .quote {
@@ -105,24 +104,28 @@ nav {
     color: #080808;
 }
 /*---------information---------*/
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
 
 .information{
     width: 100%;
-    height: 300px;
+    height: 500px;
     background-color: #ffcd82;
-    margin: 0 20px 20px 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-align: center;
 }
 
 .information-heading {
-    font-size: 40px;
     display: inline;
     font-family: "Montserrat" sans-serif;
     color: #777777;
-
+    font-size: 10px
 }
+
+/*----------------Services-----------*/
+
+
 
 /*---------------footer-------*/
 
