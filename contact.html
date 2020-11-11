@@ -25,13 +25,13 @@
                     <li class="nav-item mr-2">
                         <a class="nav-link" href="rehab.html">Home</a>
                     </li>
-                    <li class="nav-item mr-2 active">
+                    <li class="nav-item mr-2">
                          <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item mr-2">
                          <a class="nav-link" href="services.html">Our Services</a>
                     </li>
-                     <li class="nav-item mr-2">
+                     <li class="nav-item mr-2 active">
                          <a class="nav-link" href="contact.html">Contact Us</a>
                     </li>
                 </ul> 
@@ -44,20 +44,39 @@
            <div class="alert alert-warning alert-dismissible fade show my-2">
                Due to COVID-19 guidelines we require face mask at all time, the clinic timing may differ due COVID-19! Please Call for timings. <br> Ph : (132) 456 7788
             </div>
-            <article id="cover-relaxation">
-                <div class="relaxation">
-                   <img src="" class="img-fluid">
-                </div>   
-            </article>
          </div>        
     </div>   
    <!---------End Section--------->
 
    <!----------Information------------->
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-12 my-1">
-              
+               <form>
+                  <h2>Contact Us</h2>
+                  <h3>Send Us a Message</h3>
+                    <label for="validationCustom01">First name</label>
+                     <input type="text" class="form-control" id="validationCustom01" value="" required>
+                      <div class="valid-feedback">Looks good!
+                      </div>
+                       <div class="col">
+                         <label for="validationCustom02">Last name</label>
+                          <input type="text" class="form-control" id="validationCustom02" value="" required>
+                            <div class="valid-feedback">Looks good!
+                            </div>
+                       </div>   
+                         <div class="col">
+                         <label for="validationCustom02">Email address</label>
+                          <input type="text" class="form-control" id="validationCustom02" value="" required>
+                            <div class="valid-feedback">Looks good!
+                            </div>
+                        <div class="form-group">
+                           <label for="exampleFormControlTextarea1">Message</label>
+                           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                     <button class="btn btn-primary" type="submit">Submit form</button>
+                 </form>    
+                </div>
             </div> 
          </div> 
     </div>    
@@ -105,9 +124,28 @@
          </div> 
      </div>
    </footer>   
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script>
+    (function() {
+     'use strict';
+       window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+       var forms = document.getElementsByClassName('needs-validation');
+       // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+         form.addEventListener('submit', function(event) {
+         if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
 </body>
     
 </html>
