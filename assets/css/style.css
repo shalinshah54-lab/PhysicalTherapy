@@ -7,6 +7,9 @@ body {
     font-family: "Itim", sans-serif;
     margin: 0px;
     padding: 0px;
+     color: #aaaaaa;
+    background-color: #383838;
+    text-align: center;
 }
 
 
@@ -27,6 +30,10 @@ nav {
 
 }
 
+.navbar-toggler-icon {
+     color: #ffc107;
+}
+
 .navbar-toggler:hover {
     background-color: #343a40;
 }
@@ -38,14 +45,23 @@ nav {
     text-transform: uppercase;
 }
 
-/*---------------collapse navbar-------*/
+/*-collapse navbar-*/
 
 .nav-bar-item a {
     font-size: 15px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    width: 100%;
 }
-/*---------------hero images-------*/
+
+.navbar-dark .navbar-toggler {
+    border-color: #ffc107;
+}
+
+button:focus {
+    background-color: #777777;
+}
+/*-hero images-*/
 
 #hero-outer {
     width: 100%;
@@ -53,10 +69,15 @@ nav {
     overflow: hidden;
 }
 .hero-image {
-    background: url("../images/physicaltherapy.jpg") no-repeat center center;
+    background: url("../images/physicaltherapy.jpg") no-repeat bottom right fixed;
     min-height: 400px;
     width: 100%;
     height: 600px;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     animation: hero-zoom;
     animation-duration: 5s;
@@ -72,26 +93,20 @@ nav {
          transform: scale(1.1);
      }
 }
-/*----------Credit to CodeInstitute for teaching animations----*/
+/*-Credit to CodeInstitute for teaching animations-*/
 
-.image-therapy {
-    background: url("../images/run1.jpg") no-repeat center content-box;
-    width: 100%;
-    height: 500px;
-    
-}
-/*----------Credit to Dioni De Guzman,PT and Hipwallpaper.com----*/
 
 .relaxation {
-    background: url("../images/relaxation2.jpg") no-repeat center center;
+    background: url("../images/relaxation2.jpg") no-repeat center fixed;
     width: 100%;
     height: 700px;
+    background-size: cover;
 }
-/*-----------Credit to Ryan, Cunningham and Hipwallpaper.com--------*/
+/*Credit to Ryan, Cunningham and Hipwallpaper.com*/
 
 .therapy {
     float: center;
-    background-color: #2476c2bb;
+    background-color: transparent;
     padding-top: 0px;
     padding-right: 0px;
 }
@@ -103,7 +118,7 @@ nav {
 .therapy-quote {
     color: #080808;
 }
-/*---------information---------*/
+/*information*/
 .container-fluid {
     padding: 0px;
     margin: 0px;
@@ -114,26 +129,67 @@ nav {
     height: 300px;
     background-color: #ffcd82;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 15px;
+    background-size: cover;
 }
 
 .information-heading {
     display: inline;
     font-family: "Montserrat" sans-serif;
     color: #777777;
-    font-size: 20px
+    font-size: 25px
 }
 
-/*----------------Services-----------*/
+/*-Services-*/
+
+.image-therapy {
+    background: url("../images/run1.jpg") no-repeat center fixed;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    
+}
+/*-Credit to Dioni De Guzman,PT and Hipwallpaper.com-*/
 
 
 
-/*---------------footer-------*/
+
+/*-footer-*/
 
 footer {
     background-color: #777777;
 }
 
 .social-media {
-    text-align: center;
+    text-align: right;
+    color: #ffffffbe;
+    
+
+}
+
+.company-address {
+    text-align: left;
+    font-size: 150%;
+    letter-spacing: 2px;
+    color: #ffffffbe;
+}
+
+.company-address h5 {
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+
+
+/*-Contact-*/
+
+
+.btn {
+  background-color: #6cd268;
+  color: #777777;
+  border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.404);
 }
