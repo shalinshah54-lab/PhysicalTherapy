@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
 
-/*---------------General-------*/
+/*--General--*/
 body {
     font-family: "Itim", sans-serif;
     margin: 0px;
     padding: 0px;
-     color: #aaaaaa;
+    color: #aaaaaa;
     background-color: #383838;
     text-align: center;
 }
 
 
 
-/*---------------Navigation Bar-------*/
+/*--Navigation Bar--*/
 nav {
     margin: 0;
     padding: 0;
@@ -31,11 +31,11 @@ nav {
 }
 
 .navbar-toggler-icon {
-     color: #ffc107;
+     color: rgb(231, 156, 57);
 }
 
 .navbar-toggler:hover {
-    background-color: #343a40;
+    background-color: #777777;
 }
 
 /*---------------logo-------*/
@@ -95,15 +95,6 @@ button:focus {
 }
 /*-Credit to CodeInstitute for teaching animations-*/
 
-
-.relaxation {
-    background: url("../images/relaxation2.jpg") no-repeat center fixed;
-    width: 100%;
-    height: 700px;
-    background-size: cover;
-}
-/*Credit to Ryan, Cunningham and Hipwallpaper.com*/
-
 .therapy {
     float: center;
     background-color: transparent;
@@ -139,7 +130,47 @@ button:focus {
     color: #777777;
     font-size: 25px
 }
+.information-heading-list {
+     color: #777777;
+     font-size: 15px;
+}
 
+.heading-list-items {
+    color: #777777;
+    font-size: 15px;
+}
+
+.information-para {
+    color: #777777;
+    font-size: 15px;
+}
+
+/*-about-clinic-*/
+
+.fa-dumbbell {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
+
+.fa-users {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
+
+.fa-clinic-medical {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
+
+.fa-house-user {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
+
+.fa-laptop-house {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
 /*-Services-*/
 
 .image-therapy {
@@ -151,8 +182,37 @@ button:focus {
 }
 /*-Credit to Dioni De Guzman,PT and Hipwallpaper.com-*/
 
+/*--about--*/
+
+.relaxation {
+    background: url("../images/relaxation2.jpg") no-repeat center fixed;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+}
+/*Credit to Ryan, Cunningham and Hipwallpaper.com*/
 
 
+.about {
+    font-size: 10px;
+    color: #050505;
+    padding-top: 20px;
+}
+
+.block-divider-about {
+    width: 100px;
+    height: 5px;
+    border: 0px;
+    background-color: #3f3a3a;
+    border-radius: 5px;
+}
+
+.jumbotron {
+    float: center;
+    background-color: transparent;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
 
 /*-footer-*/
 
