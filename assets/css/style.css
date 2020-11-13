@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+
+/*--General--*/
+body {
+    font-family: "Itim", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #aaaaaa;
+    background-color: #383838;
+    text-align: center;
+}
+
+
+
+/*--Navigation Bar--*/
+nav {
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    width: 100%;
+    
+}
+.navbar-toggler {
+    margin-bottom: 11px;
+    background-color: #343a40;
+    border: 2px solid #343a40;
+    border-radius: 5px;
+
+}
+
+.navbar-toggler-icon {
+     color: rgb(231, 156, 57);
+}
+
+.navbar-toggler:hover {
+    background-color: #777777;
+}
+
+/*---------------logo-------*/
+.logo {
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/*-collapse navbar-*/
+
+.nav-bar-item a {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #ffc107;
+}
+
+button:focus {
+    background-color: #777777;
+}
+/*-hero images-*/
+
+#hero-outer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.hero-image {
+    background: url("../images/physicaltherapy.jpg") no-repeat bottom right fixed;
+    min-height: 400px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forward;
+}
+
+@keyframes hero-zoom{
+     from{
+         transform: scale(1);
+
+     }
+     to{
+         transform: scale(1.1);
+     }
+}
+/*-Credit to CodeInstitute for teaching animations-*/
+
+.therapy {
+    float: center;
+    background-color: transparent;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.quote {
+    color: #080808;
+}
+
+.therapy-quote {
+    color: #080808;
+}
+/*information*/
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.information{
+    width: 100%;
+    height: 300px;
+    background-color: #ffcd82;
+    text-align: center;
+    padding-top: 15px;
+    background-size: cover;
+}
+
+.information-heading {
+    display: inline;
+    font-family: "Montserrat" sans-serif;
+    color: #777777;
+    font-size: 25px
+}
+.information-heading-list {
+     color: #777777;
+     font-size: 15px;
+}
+
+.heading-list-items {
+    color: #777777;
+    font-size: 15px;
+}
+
+.information-para {
+    color: #777777;
+    font-size: 15px;
+}
+
+/*-about-clinic-*/
+
+.fa-dumbbell {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
+
+.fa-users {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
+
+.fa-clinic-medical {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
+
+.fa-house-user {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
+
+.fa-laptop-house {
+    color: rgb(231, 156, 57);
+    padding-right: 5px;
+}
+/*-Services-*/
+
+.image-therapy {
+    background: url("../images/run1.jpg") no-repeat center fixed;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    
+}
+/*-Credit to Dioni De Guzman,PT and Hipwallpaper.com-*/
+
+/*--about--*/
+
+.relaxation {
+    background: url("../images/relaxation2.jpg") no-repeat center fixed;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+}
+/*Credit to Ryan, Cunningham and Hipwallpaper.com*/
+
+
+.about {
+    font-size: 10px;
+    color: #050505;
+    padding-top: 20px;
+}
+
+.block-divider-about {
+    width: 100px;
+    height: 5px;
+    border: 0px;
+    background-color: #3f3a3a;
+    border-radius: 5px;
+}
+
+.jumbotron {
+    float: center;
+    background-color: transparent;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+/*-footer-*/
+
+footer {
+    background-color: #777777;
+}
+
+.company-address {
+    font-size: 100%;
+    letter-spacing: 2px;
+    color: #ffffffbe;
+}
+
+.company-address h5 {
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+.social-media.company-address {
+    display: inline;
+    text-transform: uppercase;
+}
+
+.social-media {
+    color: #ffffffbe;
+
+}
+
+.social-media-inline {
+    padding-bottom: 35px;
+}
+
+.social-media-inline li a i {
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: rgb(231, 156, 57);
+    background: #080808;
+}
+
+.block-divider {
+    width: 100px;
+    height: 10px;
+    border: 0px;
+    background-color: rgb(250, 160, 26);
+    border-radius: 5px;
+}
+
+/*-Contact-*/
+
+
+.btn {
+  background-color: #6cd268;
+  color: #777777;
+  border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.404);
+}
