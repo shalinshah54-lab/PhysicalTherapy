@@ -4,7 +4,7 @@
 ## Introduction
 This is my first milestone project, Rehab Potential
 
-Since 2012 my wife and myself owned this comapny Rehab Potential Inc. which is physical therapy clinic. I always had a dream of developing a website for our company which can give a new look. As I thought of changing my career and enrolled into Full Stack Develepment course I had imagined to develop a project related to our comapany,
+Since 2012 my wife and myself owned this company Rehab Potential Inc. which is physical therapy clinic. I always had a dream of developing a website for our company which can give a new look. As I thought of changing my career and enrolled into Full Stack Develepment course I had imagined to develop a project related to our comapany,
 
 Reason of this project is to put all what I learned and understood, the concepts of HTML and CSS put together a fully responsive static website.
 
@@ -14,6 +14,63 @@ Thank You for all your help for which I was able to put together my very first p
 link goes here
 
 ## UX - User Experience design
+
+### Goals for creating the poject :-
+
+The inspotation and planning of the priject was from the patients  themselves. They alway wanted to know more about the clinic and there features. Thats what made me think to make an user friendly informative project that can be easily navigated without difficulty for old and disable patients.  
+
+### Creator Story :-
+
+* I wanted the project to b pleasing to the eyes at first glance.
+* I wanted the project to be easily navigated on different platforms(mobile, tablets, laptops and desktops).
+* I wanted easiy language text so the users can read without difficulties.
+* I wanted to alert the users due to the pandemic COVID-19 the safety precautions prior to coming into the clinic.
+*I want all text and quotesto be properly placed and the shouldn't feel out of place as soon as they land on the page.
+
+### User Story :-
+
+#### First Time Visitors
+
+* As per the visitors, I want there experience to be user friendly.
+* I want them to be easily navigate through the pages using the navigation bar.
+* I want the user to navigate back to home page at anytime, where the navigation bar follows for an easy excess.
+* I want the user experience to be same on all devices.
+* I want to user to read the text without feeling bored.
+* I want to images, text, therapy quotes and page presentation to be reinforcing to come back to the site.
+
+#### Returning Vistitors :-
+
+* I want the visitor to contact the creator through the social links and contact page.
+* I wan them to give feebback on there returning experience.
+
+To Make the user experience more pleasing; In order to do so I started looking around asking questions to friends who are also therapist with a site in place, our staff and specially our patients on what they would like to see in the site. After putting together all there ideas and researching I was able to put together a site which users would like to visit.
+
+From the feedback of the users I came to know that they are more intrested in information about the clinic and how they can get in touch with you during closed hours.
+
+So I started planning using phases 
+
+#### Phase - 1
+
+* A home page with little information of the clinic and staff.
+* An About Us page
+* Our Services page
+* Contact Us page
+
+#### Phase - 2
+
+* An appointment page (scheduling an appointment)
+* Testimonial page (feedback)
+* Insurance page (which insurances are accepted)
+
+#### Phase - 3
+
+* Interactive elements(JavaScript knowledge)
+* Web domine with a customer URL
+
+
+
+
+
 
 
 
