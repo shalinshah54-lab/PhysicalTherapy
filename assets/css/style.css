@@ -81,7 +81,7 @@ button:focus {
 
     animation: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forward;
+    animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom{
@@ -96,7 +96,6 @@ button:focus {
 /*-Credit to CodeInstitute for teaching animations-*/
 
 .therapy {
-    float: center;
     background-color: transparent;
     padding-top: 0px;
     padding-right: 0px;
@@ -126,7 +125,7 @@ button:focus {
 
 .information-heading {
     display: inline;
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #777777;
     font-size: 25px
 }
@@ -208,7 +207,6 @@ button:focus {
 }
 
 .jumbotron {
-    float: center;
     background-color: transparent;
     padding-bottom: 0px;
     padding-right: 0px;
@@ -229,13 +227,13 @@ footer {
 }
 
 .company-address {
-    font-size: 100%;
+    font-size: 200%;
     letter-spacing: 2px;
     color: #ffffffbe;
 }
 
 .company-address h5 {
-    font-size: 150%;
+    font-size: 100%;
     letter-spacing: 2px;
 }
 

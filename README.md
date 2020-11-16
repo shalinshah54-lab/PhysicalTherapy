@@ -69,7 +69,7 @@ So I started planning using phases
 
 The first step for my research was visiting physical therapy sites and knowing different layouts, elements in navigation bar, images, quotes, text, and colors.
 
-#### Colors :
+### Colors :
 
 * Black 
 * Grey
@@ -79,7 +79,7 @@ The first step for my research was visiting physical therapy sites and knowing d
 
 Black background to start with to make the images and text stand out more by giving the page the depth and drawing attention.
 
-#### Typography :
+### Typography :
 
 * Itim
 * Montserrat
@@ -100,14 +100,75 @@ Below is a link to the initial draft of the wireframe I created for the project 
 
 [RehabPotentialWireframe](/images/RehabPotentialWireframe.pdf)
 
+* Home page contains an image with a jumbotron containing quote. The jumbotron is transparent using CSS styling.
+* The image on home page contains in - out animation which stands out when you load the page.
+* All the main headings are underlined using shades of orange using CSS styling to have the topics stand out from the dark background.
+* There is an alert on the top of the screen which is added using bootstrap to alert the users for any updating changes.
+* Company name(logo) is a hyperlink which can bring you back to the home page at anytime.
+* The contact us page presents with an fill up form with message. If the required fields are not filled a message will show to enter the required field. 
+
+### Features to Implement :
+
+* Once understanding JavaScript, I would like to add an appointment page which can help to schedule an appointments for new clients by fill out a required forms.
+* I would like to add a counting column which would automatically counts the number of new patients added. Which will help build clinents with visual feedback.
+* I would add an signIn/ Signup page for new or existing clients who can excess there own medical documents.
+
+### Technologies Used :
+
+* [HTML](https://www.w3schools.com/)
+     * used as the basic building block for the project and to structure the content.
+
+* [CSS](https://www.w3schools.com/)
+     * used to style all the web content across the project.
+
+* [Bootstrap 4](https://getbootstrap.com/)
+     * Used as the main frame work to make the prject responsive.
+
+* [JavaScript](https://www.javascript.com/)
+     * used for the bootstrap navbar for extending collapse plugin and the contact us form by submitting.
+
+* [jQuery](https://jquery.com/)
+     * used with Bootstrap to make the navbar responsive.
+
+* [Google Fonts](https://fonts.google.com/)
+     * used to obtain the fonts linked in  the header fonts used were Itim and Montserrat script.
+
+* [Font Awesome](https://fontawesome.com/)
+     * Used to obtain the social media lcon used in the footer and the icons used in the discription of the services and home page information.
+
+* [Google Developer tools](https://developers.google.com/web/tools/chrome-devtools)
+     * used primarily for fixing spacing issues finding bugs and testing responsiveness across the project.
+
+* [Github](https://github.com/)
+     * used to store code for the project after being pushed.
+
+* [Git](https://git-scm.com/)
+     * used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+* [Gitpod](https://gitpod.io/)
+     * used as the development envirnment. It helps to setup the code.
+
+* [Balsamiq](https://balsamiq.com/)
+     * Used to creat the wireframes for the project.
+
+## Testing
+
+**Testing User Stories from User Experience Design (UX) Section**
+
+User Story Testing
+
+#### Further Testing
 
 
+1. [Markup validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F)
+     1.  [home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F#textarea)
 
+     1. [about page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F#textarea)
 
+     1. [services page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgitpod.io%2Flogin%2F%3FreturnTo%3Dhttps%3A%2F%2Fd50bb224-5750-45a4-9f65-6ac2318bcce1.ws-us02.gitpod.io%2F#l84c10)
+     1. [contact page](https://validator.w3.org/nu/#l65c110)
 
+2.  [W3C CSS Validator Result](https://jigsaw.w3.org/css-validator/validator)
 
-
-
-
-
+     1. [Validator CSS result](https://validator.w3.org/nu/#textarea)
 
