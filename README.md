@@ -67,6 +67,35 @@ So I started planning using phases
 * Interactive elements(JavaScript knowledge)
 * Web domine with a customer URL
 
+The first step for my research was visiting physical therapy sites and knowing different layouts, elements in navigation bar, images, quotes, text, and colors.
+
+#### Colors :
+
+* Black 
+* Grey
+* Shades of Orange
+* White 
+* Yellow
+
+Black background to start with to make the images and text stand out more by giving the page the depth and drawing attention.
+
+#### Typography :
+
+* Itim
+* Montserrat
+
+I used Itim script throughout all the pages which looks fancy and also easy for anybody to read the text.
+
+I also used Montserrat script in the heading of the information is provided to have the heading with different text to have it stand out more.
+
+Navigation bar is fixed to the top as the page moves up and down where you can use the navigation bar anytime without having to scroll back up.
+
+Social Media links in the footer with a simple color combination will help user with attractive eye catching icons which upon clicking will direct them to the blank page regarding there individual sites.
+
+Hero Images which are on every page except the contact us page.  the images are well pixelated and properly arranged to give the page an attractive interaction with a good visual effect. On the home page the hero image being an animated in-out effect with an nice quote of physical therapy. Other image on about page shows relaxation stating about the page. Finally the image on the service page is about team work and thats what it means.
+
+The text is consistant throughout all the pages mostly consisting information of the facility and staff. 
+
 
 
 
