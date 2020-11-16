@@ -96,6 +96,12 @@ Hero Images which are on every page except the contact us page.  the images are 
 
 The text is consistant throughout all the pages mostly consisting information of the facility and staff. 
 
+Below is a link to the initial draft of the wireframe I created for the project and an initial conceptual idea of how everything would respond on different devices.
+
+[RehabPotentialWireframe](/images/RehabPotentialWireframe.pdf)
+
+
+
 
 
 
