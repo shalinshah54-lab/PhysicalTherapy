@@ -98,7 +98,7 @@ The text is consistant throughout all the pages mostly consisting information of
 
 Below is a link to the initial draft of the wireframe I created for the project and an initial conceptual idea of how everything would respond on different devices.
 
-[RehabPotentialWireframe](/images/RehabPotentialWireframe.pdf)
+[RehabPotentialWireframe](/assets/images/RehabPotentialWireframe.pdf)
 
 * Home page contains an image with a jumbotron containing quote. The jumbotron is transparent using CSS styling.
 * The image on home page contains in - out animation which stands out when you load the page.
